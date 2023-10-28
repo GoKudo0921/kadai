@@ -1,0 +1,276 @@
+/* ここから下に記載していく */
+body {
+      /* margin: 20px; */
+      background-color: #550000;
+}
+
+header {
+      background-image: url(https://cfs.pokepara.jp/Pokepara/Images/gal/174843/photo/diary/ozr71mOP5O82ievEZFY.gif);
+}
+
+/* ゆっくり表示 */
+.fade {
+	opacity: 0;
+	transform: translateY(30px);
+	transition: opacity 1.5s, transform 1s;
+}.fade.active {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+/* トップ画像とタイトル */
+/* #topimg {
+      display: flex;
+      justify-content: ; */
+
+      /* justify-content:space-around; */
+      /* text-align: center; */
+/* } */
+
+
+/* #soshina2 video {
+      width: 90%;
+      padding: 0 0 30px 0 ;
+      text-align: right;
+} */
+
+
+.wrap-bgm {
+      padding: 10px 0 0 60px;
+}
+
+#soshina video {
+      width: 10%;
+      padding: 0 0 30px 60px;
+}
+
+#title {
+      text-align: center;
+}
+
+#title img {
+      width: 50%;
+}
+
+/* シゴロとピンゾロ */
+
+.niku img {
+      /* border-radius: 10%; */
+      padding: 0 0 0 60px;
+}
+
+.shigo img {
+      padding: 0 0 0 60px;
+}
+
+/* 文字共通 */
+.moji {
+      text-align: center;
+      color: #DAA520;
+      font-weight: bold;
+      font-size: 30px;
+}
+
+.name {
+      font-weight: bold;
+      font-size: 20px;
+      padding: 0 0 20px 0;
+}
+
+/* プレイヤー */
+.wrap-top {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+}
+
+.wrap-top p {
+      text-align: center;
+      color: white;
+}
+
+table {
+      text-align: center;
+      color: white;
+}
+
+.kaiji {
+      display: flex;
+}
+.kaiji img {
+      width: 350px;
+      border-radius: 10%;
+}
+.kaiji-name {
+      color: white;
+}
+
+
+.hancho {
+      display: flex;
+}
+
+.hancho img {
+      border-radius: 10%;
+      width: 380px;
+}
+
+
+/* ビデオ */
+.dice-kaiten video{
+      width: 50%;
+}
+
+#wrap-kaiten {
+      text-align: center;
+      display: flex;
+}
+
+#wrap-kaiten-aite {
+      text-align: center;
+      display: flex;
+}
+
+.wrap-sai {
+      padding: 20px;
+}
+
+/* 残金 */
+#zankin , #aitezankin {
+      /* padding: 10px; */
+}
+
+.yen {
+      text-align: right;
+}
+
+.zankin-title {
+      padding: 0 10px 0 0;
+      text-align: center;
+}
+
+
+/* 金額 */
+/* 
+.money {
+      color: white;
+      font-size: 30px;
+      padding: 10px;
+} */
+
+.kake {
+      color: white;
+      padding: 10px;
+}
+
+.kakekin {
+      text-align-last: left;
+}
+
+.kake-title {
+      font-weight: bold;
+}
+
+/* 賭け金 */
+input{
+      width: 200px;
+      background-color: gold;
+}
+
+.kake button {
+      background-color: gold;
+}
+
+
+/* 出目 */
+.wrap-sai {
+      display: flex;
+      justify-content: space-between;
+}
+
+.wrap-hancho-sai , .wrap-kaiji-sai{
+      text-align: center;
+}
+
+.kaiji-sai video , .hancho-sai video {
+      width: 20%;
+}
+
+
+#deme , #aitedeme{
+      color: #00FF00;
+      font-size: 20px;
+      text-align: center;
+}
+
+/* ボタンを中心に */
+.wrap-btn {
+      text-align: center;
+}
+
+
+/* ボタンのホバー */
+button:hover {
+      background-color: #808080;
+      color: black;
+}
+
+#btn , #aitebtn {
+      width: 200px;
+      height: 50px;
+      font-weight: bold;
+      margin: 10px;
+}
+
+
+#battle ,#reset , #seisan , #next {
+      width: 300px;
+      height: 50px;
+      font-weight: bold;
+      margin: 10px;
+}
+
+#shigoro {
+      background: transparent;
+}
+
+/* 勝敗 */
+#result {
+      color: white;
+}
+
+.resultimg img{
+      border-radius: 10%;
+}
+
+/* 清算 */
+#seisan-kingaku {
+      color: white;
+}
+
+/* はじめから */
+.or {
+      color: white;
+      text-align: center;
+      font-weight: bold;      
+}
+
+/* rule */
+#rule{
+      text-align: center;
+      padding: 10px;
+
+}
+
+/* footer */
+
+footer {
+      background-image: url(https://th.bing.com/th/id/OIP.IMBDiJpgSpj1Eg04naPx6AHaEL?w=325&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+
+      text-align: center;
+      color: white;
+      padding: 10px;
+      height: 100px;
+      
+      font-size: 50%;
+}
